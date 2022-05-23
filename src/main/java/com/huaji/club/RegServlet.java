@@ -57,7 +57,7 @@ public class RegServlet extends HttpServlet {
                 pw.close();
                 return;
             } else { // 不存在
-                String sqlInsertPass = "insert into member_info (mno,mname,mcoll,mclass,mtel,mpoli) values('"+mid+"','"+mname+"','"+mcoll+"','"+mclass+"','"+mtel
+                String sqlInsertPass = "insert into member_info (mno,mname,msex,mcoll,mclass,mtel,mpoli) values('"+mid+"','" + mname + "','" + msex + "','" +mcoll+"','"+mclass+"','"+mtel
                         +"','"+mpoli+"')";
                 int row1 = statement.executeUpdate(sqlInsertPass);
                 if(row1 == 1){

@@ -2,3 +2,4 @@ com\huaji\club\UpdateInfoServlet.class
 DBUtil\DBUtil.class
 com\huaji\club\InfoServlet.class
 com\huaji\club\RegServlet.class
+com\huaji\club\StaffRegServlet.class
